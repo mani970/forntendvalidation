@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.0-beta3-dist_2/bootstrap-5.0.0-beta3-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./register.css" />
+  </head>
+  <body>
+    <section class="card col-md-4 my-4 mx-auto">
+      <article class="card-body bg-dark">
+        <h4
+          class="display-5 font-weight-bold text-Uppercase text-light border-bottom pb-2"
+        >
+          Registration
+        </h4>
+        <div>
+          <form class="text-light" method="POST">
+            <div class="form-group">
+              <label for="username">Firstname : </label>
+              <input
+                type="text"
+                name="firstname"
+                id="username"
+                placeholder="Enter firstname"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Lastname : </label>
+              <input
+                type="text"
+                name="lastname"
+                id="password"
+                placeholder="Enter lastname"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email : </label>
+              <input
+                type="Email"
+                name="emailID"
+                id="email"
+                placeholder="Enter the Email Id"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="college">College ID : </label>
+              <input
+                type="text"
+                id="college"
+                name="ID"
+                class="form-control"
+                placeholder="Enter the ID"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="Collegename">College-Name : </label>
+              <input
+                type="text"
+                id="Collegename"
+                name="Collegename"
+                class="form-control"
+                placeholder="Enter the Collegename"
+                maxlength="20"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="Job">Company : </label>
+              <input
+                type="text"
+                class="form-control"
+                name="companyname"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="date">HireDate : </label>
+              <input type="date" id="date" name="date" class="form-control" />
+            </div>
+            <div class="form-group">
+              <button class="btn btn-block btn-primary my-1 form-control">
+                SignUp
+              </button>
+            </div>
+          </form>
+        </div>
+      </article>
+    </section>
+
+    <script src="./bootstrap-5.0.0-beta3-dist_2/bootstrap-5.0.0-beta3-dist/js/bootstrap.js"></script>
+  </body>
+</html>
